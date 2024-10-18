@@ -58,15 +58,10 @@ A função `validarCPF(cpf)` tem o objetivo de validar um número de CPF brasile
 ### Explicação Detalhada:
 
 1. **Remoção de Caracteres Não Numéricos:**
-   ```javascript
-   cpf = cpf.replace(/[^\d]+/g, '');
-   ```
    - Aqui, o código utiliza uma expressão regular para remover todos os caracteres que não sejam dígitos, como pontos (`.`), traços (`-`), ou espaços. Isso deixa apenas os números no CPF.
 
 2. **Verificação de Comprimento e Sequências Repetidas:**
-   ```javascript
-   if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) return false;
-   ```
+  ,mo
    - **`cpf.length !== 11`:** Verifica se o CPF tem exatamente 11 dígitos. Se não tiver, retorna `false` imediatamente.
    - **`/^(\d)\1{10}$/.test(cpf)`:** Essa expressão regular verifica se todos os dígitos são iguais (exemplo: "111.111.111-11"). Se for o caso, também retorna `false`, pois um CPF com todos os dígitos iguais é inválido.
 
