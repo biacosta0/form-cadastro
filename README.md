@@ -147,3 +147,5 @@ javascript
 8. Mensagem de CEP Inválido:
 javascript
 • Se o CEP não for válido de acordo com a função cepValido(), o sistema exibe um alerta indicando que o "CEP incorreto!" foi inserido.
+
+!(consumindo-API)(img/consumindo-API.PNG)
