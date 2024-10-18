@@ -144,3 +144,16 @@ javascript
 • Se o CEP não for válido de acordo com a função cepValido(), o sistema exibe um alerta indicando que o "CEP incorreto!" foi inserido.
 
 ![consumindo-API](img/consumindo-API.PNG)
+
+## fontes:
+
+As informações que forneci são dos seguintes sites:  
+API ViaCep: Documentação oficial da API de CEP do Brasil.  
+• https://viacep.com.br  
+Documentação do fetch e Funções Assíncronas (JavaScript):  
+• MDN Web Docs - Fetch API  
+• MDN Web Docs - async/await  
+Manipulação do DOM (Document Object Model):  
+• MDN Web Docs - Document.getElementById()  
+Validação de Propriedades no Objeto (hasOwnProperty):  
+• MDN Web Docs - Object.prototype.hasOwnProperty()   
