@@ -41,7 +41,7 @@ Esse trecho de código em JavaScript faz a validação de um campo de email em u
 6. **`else { emailError.textContent = ""; }`**: 
    - Se o email for válido, o conteúdo do `emailError` é esvaziado (removendo qualquer mensagem de erro anterior).
 
-!(verificação-email)(img/verificação-email.PNG)
+![verificação-email](img/verificação-email.PNG)
 
 ## validação do cpf 
 
@@ -148,4 +148,4 @@ javascript
 javascript
 • Se o CEP não for válido de acordo com a função cepValido(), o sistema exibe um alerta indicando que o "CEP incorreto!" foi inserido.
 
-!(consumindo-API)(img/consumindo-API.PNG)
+![consumindo-API](img/consumindo-API.PNG)
