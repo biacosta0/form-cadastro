@@ -51,7 +51,7 @@ Explicação Rápida da Função validarCPF:
 3.	Cálculo dos Dígitos Verificadores: Calcula os dois últimos dígitos do CPF para verificar se correspondem aos fornecidos.
 4.	Retorno: Retorna true se o CPF for válido ou false caso contrário.
 
-verificação cpf
+## verificação cpf
 
 A função `validarCPF(cpf)` tem o objetivo de validar um número de CPF brasileiro com base nos dois dígitos verificadores, garantindo que o número segue a estrutura correta. Vamos analisar o código em detalhes:
 
@@ -96,7 +96,7 @@ A função `validarCPF(cpf)` tem o objetivo de validar um número de CPF brasile
 3. Calcula-se o primeiro dígito verificador com base nos primeiros 9 dígitos.
 4. Se o primeiro dígito verificador estiver correto, o segundo dígito é calculado com base nos primeiros 10 dígitos.
 5. Se ambos os dígitos verificadores forem válidos, a função retorna `true`; caso contrário, `false`.
-
+![validação-cpf](img/validação-cpf.png)
 ### Regras da Validação do CPF:
 
 - O CPF é composto por 9 dígitos iniciais e 2 dígitos verificadores.
